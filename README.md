@@ -1,6 +1,12 @@
 # AWS Cloudformation
-- Example for Cognito user pool cloudformation serverless 
-```
+- Examples for cloudformation serverless setup 
+
+
+
+<details>
+	<summary><b>Cognito</b></summary>
+
+```yaml
 resources:
   CognitoSNSRole:
     Type: 'AWS::IAM::Role'
@@ -199,3 +205,5 @@ resources:
         - ADMIN_NO_SRP_AUTH
       GenerateSecret: false
 ```
+
+</details>
