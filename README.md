@@ -1,5 +1,5 @@
 # AWS Cloudformation
-- Cognito user pool cloudformation serverless example
+- Example for Cognito user pool cloudformation serverless 
 ```
 resources:
   CognitoSNSRole:
